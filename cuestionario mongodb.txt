@@ -1,0 +1,21 @@
+¿Qué es una colección en MongoDB?
+En MongoDB, una colección es un grupo de documentos almacenados en la base de datos. Los documentos en una colección pueden tener diferentes estructuras, pero generalmente comparten un propósito o tipo de datos relacionados. Puedes pensar en una colección como un equivalente a una tabla en bases de datos relacionales, pero con la flexibilidad de almacenar documentos de diferentes estructuras en la misma colección.
+
+¿Qué es un documento en MongoDB?
+Un documento en MongoDB es una representación en formato JSON (BSON en realidad) de un conjunto de datos. Cada documento contiene pares de clave-valor, donde las claves son cadenas y los valores pueden ser diversos tipos de datos, como números, cadenas, objetos incrustados o incluso matrices. Los documentos son la unidad básica de almacenamiento y consulta en MongoDB, y son análogos a las filas de una tabla en una base de datos relacional.
+
+Mencione 3 casos de uso populares que utilizaron MongoDB:
+
+Aplicaciones web y móviles: MongoDB es ampliamente utilizado en aplicaciones web y móviles para almacenar y gestionar datos, como perfiles de usuarios, publicaciones, comentarios y otros tipos de contenido dinámico.
+Análisis de datos en tiempo real: MongoDB es útil en casos de análisis de datos en tiempo real, como la monitorización de eventos en aplicaciones y sistemas, donde se necesita almacenar y consultar grandes volúmenes de datos de manera rápida.
+Gestión de contenido: Plataformas de gestión de contenido y sistemas de blogs utilizan MongoDB para almacenar y gestionar artículos, imágenes, comentarios y otros tipos de contenido.
+¿Dónde y cuándo se suele utilizar MongoDB?
+MongoDB se suele utilizar en escenarios donde la flexibilidad en el esquema de datos es importante y donde hay una necesidad de almacenar y consultar datos semi-estructurados o no estructurados. Se utiliza comúnmente en aplicaciones web y móviles, sistemas de análisis en tiempo real, aplicaciones de Internet de las cosas (IoT), plataformas de juegos y otras situaciones donde los datos pueden evolucionar con el tiempo y no se ajustan bien a un modelo de datos rígido.
+
+Ventajas de utilizar MongoDB:
+
+Esquema flexible: MongoDB permite almacenar datos sin una estructura fija, lo que facilita la adaptación de los datos a medida que evolucionan las necesidades.
+Alta escalabilidad: MongoDB puede escalarse horizontalmente agregando más servidores, lo que permite manejar grandes volúmenes de datos y tráfico.
+Alta disponibilidad: MongoDB ofrece opciones para configurar replicación y tolerancia a fallos, asegurando que los datos estén disponibles incluso en caso de fallos de hardware.
+Rendimiento: La arquitectura de MongoDB y su capacidad para distribuir datos pueden proporcionar un rendimiento rápido en aplicaciones con muchas lecturas y escrituras.
+Consultas ricas: MongoDB ofrece un poderoso sistema de consultas, incluyendo consultas por rango, geoespaciales y de texto completo.
